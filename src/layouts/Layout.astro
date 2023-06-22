@@ -1,0 +1,36 @@
+---
+export interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Escuela de las ranitas Ninjas de Harpuia">
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.png" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body class="bg-black">
+		<slot />
+	</body>
+</html>
+
+<style is:global>
+	html {
+    	height: 100%
+	}
+	body {
+		color: white;
+		background-image: url('../images/bg.png');
+		background-size: cover;
+    	background-repeat: no-repeat;
+		background-position: center center; 
+	}
+</style>
+
