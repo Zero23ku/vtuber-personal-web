@@ -43,8 +43,10 @@ watch(selectedItem, (newValue) => {
         '<br><br>Tambien subo fotos de mi gato waton.' +
         '<br><br><a target="_blank" href="https://x.com/harpuiavt">CLICKEA AQUI</href>'
       break
-    case 'Mastodoon':
-      content = 'Proximamente...'
+    case 'Discord':
+      content =
+        'Si me quieres contactar por Discord, puedes buscarme como: sageharpuia' +
+        '<br><br>Tambien puedes <a target="_blank" href="https://discord.com/users/694033534150639637">CLICKEAR AQUI</a>'
       break
     case 'Bluesky':
       content = 'Proximamente...'

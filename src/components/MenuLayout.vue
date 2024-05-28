@@ -30,7 +30,7 @@ function select(event) {
     </div>
     <div class="menu-element">
       <img class="selector inactive" src="../assets/img/selector.svg" />
-      <a href="#" @click="select($event)">Mastodoon</a>
+      <a href="#" @click="select($event)">Discord</a>
     </div>
     <div class="menu-element">
       <img class="selector inactive" src="../assets/img/selector.svg" />
