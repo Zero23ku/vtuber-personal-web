@@ -1,0 +1,16 @@
+body {
+  background-image: url('../img/lake of rage background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+body a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black !important;
+}
